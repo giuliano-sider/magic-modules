@@ -42,6 +42,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
+replace (
+	google.golang.org/api v0.255.0 => /usr/local/google/home/giulianosider/repos/google-api-go-client
+)
+
 require (
 	bitbucket.org/creachadair/stringset v0.0.8 // indirect
 	cel.dev/expr v0.24.0 // indirect
